@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { TextField, Box, Typography } from '@material-ui/core';
+import { TextField, Box } from '@material-ui/core';
 
 import * as contactsActions from '../redux/contacts/contactsActions';
 import * as contactsSelectors from '../redux/contacts/contactsSelectors';
