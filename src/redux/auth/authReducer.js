@@ -1,4 +1,4 @@
-import { combineReducers, createAction, createReducer } from "@reduxjs/toolkit";
+import { combineReducers, createReducer } from "@reduxjs/toolkit";
 import * as actions from "./authActions";
 const tokenReducer = createReducer(null, {
   [actions.loginSuccess]: (state, action) => action.payload.token,
