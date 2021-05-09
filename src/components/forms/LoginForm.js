@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { TextField, Button, Box, Typography } from '@material-ui/core';
+import { TextField, Button } from '@material-ui/core';
 import { connect} from 'react-redux'
 import * as authOperations from '../../redux/auth/authOperations'
-import Spinner from '../Spinner';
+
 
 const initialState = {
   email: '',

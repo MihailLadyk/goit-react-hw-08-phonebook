@@ -1,5 +1,5 @@
 import { Component, Suspense } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Switch } from "react-router-dom";
 import * as authOperations from "../redux/auth/authOperations";
 import { routes } from "../routes";
 import { connect } from "react-redux";
